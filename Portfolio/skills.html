@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background: #00ffff;
+        }
+        #menulist{
+        display: flex; 
+        justify-content: center;
+        background-color: #000000;
+      }
+      a{
+        padding-left: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        margin: 18px;
+        color: white;
+        padding: 9px;
+        border-radius: 18px;
+        border: 1px solid white;
+        background-color: #000000;
+      }
+      a:hover{
+        background: #00ffff;
+        color: #000000;
+      }
+      #menu{
+        background-color: 8758FF;
+      }
+      .container1{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+      }
+      .container2{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+      }
+      #sitename{
+        position: absolute;
+        left: 40px;
+        font-weight: bold;
+        color: white;
+        font-size: 25px;
+        top: -5px;
+      }
+      .pic{
+        width: 200px;
+        height: 180px; 
+        background-color: white;
+        margin-left: 35px;
+        margin-top: 40px;
+        border-radius: 12px;
+      }
+      .pic:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+        box-shadow: 4px 4px 10px black;
+      }
+      #img{
+        margin-left: 50px;
+        margin-top: 13px;  
+      }
+      #txt{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 22px;
+      }
+  
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div id="menulist">
+             <p id="sitename">Arun</p>
+             <a class="menuitemhover" href="portfolio.html">HOME</a>
+             <a class="menuitemhover" href="about.html">ABOUT</a>
+             <a class="menuitemhover" href="projects.html">PROJECTS</a>
+             <a class="menuitemhover" href="certifications.html">CERTIFICATIONS</a>
+             <a class="menuitemhover" href="skills.html">SKILLS</a>   
+        </div>
+    </div>
+    <div class="container1">
+    <div class="pic">
+            <img id="img" src="BI.png" alt="BI" width="100" height="100">
+            <p id="txt">POWER BI</p>
+    </div>
+    <div class="pic">
+      <img id="img" src="python.png" alt="BI" width="100" height="100">
+      <p id="txt">PYTHON</p>
+    </div>
+    <div class="pic">
+      <img id="img" src="sql.png" alt="BI" width="100" height="100">
+      <p id="txt">SQL</p>
+    </div>
+    <div class="pic">
+      <img id="img" src="HTML.png" alt="BI" width="100" height="100">
+      <p id="txt">HTML</p>
+    </div>
+    <div class="pic">
+      <img id="img" src="css.png" alt="BI" width="100" height="100">
+      <p id="txt">CSS</p>
+    </div>
+    </div>
+    <div class="container2">
+      <div class="pic">
+        <img id="img" src="figma.png" alt="BI" width="100" height="100">
+        <p id="txt">FIGMA</p>
+      </div>
+      <div class="pic">
+        <img id="img" src="ml.png" alt="BI" width="100" height="100">
+        <p id="txt">MACHINE  LEARNING</p>
+      </div>
+      <div class="pic">
+        <img id="img" src="da.png" alt="BI" width="100" height="100">
+        <p id="txt">DATA ANALYTICS</p>
+      </div>
+     
+    </div>
+</body>
+</html>

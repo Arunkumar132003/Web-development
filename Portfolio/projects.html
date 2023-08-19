@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    body{
+        margin: 0;
+        background-color: #00ffff;
+    }
+    #menulist{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+  }
+  a{
+    padding-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 18px;
+    color: white;
+    padding: 9px;
+    border-radius: 18px;
+    border: 1px solid white;
+    background-color: #000000;
+  }
+  a:hover{
+    background: #00ffff;
+    color: #000000;
+  }
+  #menu{
+    background-color: 8758FF;
+  }
+  #sitename{
+    position: absolute;
+    left: 40px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    top: -5px;
+  }
+  table, th, td {
+    margin-left: 30%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+  }
+  th {
+    width: 25%;
+  }
+  td.project-width {
+    width: 26.6%;
+  }
+  #projects{
+    width: 38.6%;
+    background-color: white;
+    color: #000000;
+  }
+  .project-list{
+      background-color: white;
+      color: #000000;
+  }
+</style>
+</head>
+<body>
+    <div class="menu">
+        <div id="menulist">
+             <p id="sitename">Arun</p>
+             <a class="menuitemhover" href="portfolio.html">HOME</a>
+             <a class="menuitemhover" href="about.html">ABOUT</a>
+             <a class="menuitemhover" href="projects.html">PROJECTS</a>
+             <a class="menuitemhover" href="certifications.html">CERTIFICATIONS</a>
+             <a class="menuitemhover" href="skills.html">SKILLS</a>   
+        </div>
+    </div>
+    <table style="margin-top: 50px;" class="project-list">
+      <tr>
+        <th>S.NO</th>
+        <th>PROJECT NAME</th>
+        <th>DOMAIN</th>
+      </tr>
+    </table>
+    <table style="margin-top: 20px;" class="project-list">
+      <tr>
+        <td class="project-width">1</td>
+        <td class="project-width">Fake News Detection</td>
+        <td class="project-width">Machine Learning</td>
+      </tr>
+    </table>
+    <table style="margin-top: 20px;" id="projects" class="project-list">
+      <tr>
+        <td class="project-width">2</td>
+        <td class="project-width">Diabetes Prediction</td>
+        <td class="project-width">Machine Learning</td>
+      </tr>
+    </table>
+</body>
+</html>

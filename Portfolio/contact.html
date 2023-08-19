@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        background-color: #00ffff;
+    }
+    #menulist{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+  }
+  a{
+    padding-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 18px;
+    color: white;
+    padding: 9px;
+    border-radius: 18px;
+    border: 1px solid white;
+    background-color: #000000;
+  }
+  a:hover{
+    background: #00ffff;
+    color: #000000;
+  }
+  #menu{
+    background-color: 8758FF;
+  }
+  #sitename{
+    position: absolute;
+    left: 40px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    top: -5px;
+  }
+  form{
+    width: 400px;
+    height: 410px;
+    background-color: black;
+    border-radius: 10px;
+    transform: translateX(138%);
+    margin-top: 130px;
+  }
+  input{
+    width: 70%;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  textarea{
+    margin-left: 50px;
+    border-radius: 10px;
+  }
+  #submit{
+    margin-top: 19px;
+    background-color: white;
+    margin-left: 54px;
+  }
+</style>
+<body>
+    <div class="menu">
+        <div id="menulist">
+             <p id="sitename">Arun</p>
+             <a class="menuitemhover" href="portfolio.html">HOME</a>
+             <a class="menuitemhover" href="about.html">ABOUT</a>
+             <a class="menuitemhover" href="projects.html">PROJECTS</a>
+             <a class="menuitemhover" href="certifications.html">CERTIFICATIONS</a>
+             <a class="menuitemhover" href="skills.html">SKILLS</a>   
+        </div>
+    </div>
+    <div>
+        <form>
+            <p style="color: white; text-align: center; font-weight: bold; ">Contact Me</p>
+            <input  type="text" name="Name" placeholder="Name" required><br>
+            <input type="email" name="mail-id" placeholder="Email" required>
+            <textarea name="regarding" id="textspace" cols="37" rows="10" placeholder="Type your comments why are you looking for"></textarea>
+            <input id="submit" type="submit">
+        </form>
+    </div>
+</body>
+</html>
