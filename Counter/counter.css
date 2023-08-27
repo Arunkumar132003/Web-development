@@ -1,0 +1,82 @@
+    body {
+    background: lightgreen;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+#counter-body {
+    width: 300px;
+    height: 300px;
+    background-color: #FFDB15;
+    margin: 12% auto 0;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px black;
+}
+
+#container{
+    position: relative;
+}
+
+#heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 40px; 
+    padding-top: 15px;
+}
+
+#count-display {
+    width: 200px;
+    height: 50px;
+    border: 5px solid white;
+    margin-top: 40px;
+    margin-left: 46px;
+    border-radius: 9px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#plus{
+    border-radius: 40%;
+}
+
+#reset{
+    width: 70px;
+    height: 30px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: 118px;
+    padding: 3px;
+    margin-top: 30px;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+#plus{
+    border: 5px solid black;
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#minus{
+    border: 5px solid black;
+    width: 50px;
+    height: 50px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
