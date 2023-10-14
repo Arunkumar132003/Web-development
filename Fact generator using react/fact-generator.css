@@ -1,0 +1,55 @@
+body {
+    background-color: lightgreen;
+  }
+  
+  #container {
+    width: 400px;
+    height: 300px;
+    border: 2px solid white;
+    position: relative;
+    border-radius: 9px;
+    left: 220px;
+    top: 110px;
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  #btn {
+    background-color: lightgreen;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+  }
+  #btn:hover {
+    background-color: lightgray;
+    color: black;
+  }
+  
+  #fact-head {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #content {
+    margin-top: 30px;
+    text-align: justify;
+    text-overflow: hidden;
+    word-wrap: break-word;
+    width: 350px;
+    text-align: center;
+    margin-left: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 10px;
+    max-height: 200px;
+    font-weight: bold;
+    line-height: 25px;
+  }
+  
